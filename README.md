@@ -257,7 +257,7 @@ me@me-HP-260-G3-DM:~/netology/DZ_Ansible_1/playbook$
 
 8. Приведите полный текст команды для поиска информации в документации ansible для модуля подключений ssh
 
-Ответ: Гм, согласно https://docs.ansible.com/ansible/latest/collections/ansible/builtin/ssh_connection.html подуль подключения ssh - это часть базового пакета ansible. Не очень понял вопрос, честно говоря. 
+Ответ: ansible-doc -t connection ssh
 
 9. Какой параметр из модуля подключения ssh необходим для того, чтобы определить пользователя, под которым необходимо совершать подключение?
 
